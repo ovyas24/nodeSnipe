@@ -1,0 +1,26 @@
+{
+    "name": "nodesnipe",
+    "displayName": "nodeSnipe",
+    "description": "Simple Node snippets generator",
+    "version": "1.1.0",
+    "publisher": "ovyas24",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ovyas24/somthing"
+    },
+    "icon": "nodejs-new-black.png",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
