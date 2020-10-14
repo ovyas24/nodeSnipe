@@ -4,11 +4,11 @@
 
 ## Code Blocks
 
-#### key-word **!node** : *Adds a Simple Node and express template*
+#### key-word __!node__ : *Adds a Simple Node and express template*
 
 #### Code added
 
-'''javascript
+```js
 
  const express = require('express')
  const app = express()
@@ -20,21 +20,21 @@
  
  app.listen(port,(req,res)=> console.log(`App running at port port`))
 
-'''
+```
 
 #### key-word **!ex-stat** : *Adds a static file location in app*
 
 #### Code added
 
-'''javascript
+```js
 app.use(express.static('public'))
-'''
+```
 
 #### key-word **!ex-router** : *Template for a route page*
 
 #### Code added
 
-'''javascript
+```js
 const express = require('express')
 const router = express.Router()
 
@@ -43,4 +43,4 @@ router.get('/',(req,res)=>{
 })
 
 module.exports = router
-'''
+```
