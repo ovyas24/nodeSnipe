@@ -32,5 +32,23 @@
             "module.exports = router"
         ],
         "description": "It genrates a simple express.Router() template"
+    },
+    "Get Snippet":{
+        "prefix": "!n-get",
+        "body": [
+            "${1:app}.get('/${2:route}',(req,res)=>{",
+            "   res.send('somthing')",
+            "})"
+        ],
+        "description": "Get snippet for express"
+    },
+    "Post Snippet":{
+        "prefix": "!n-post",
+        "body": [
+            "${1:app}.post('/${2:route}',(req,res)=>{",
+            "   res.send('somthing')",
+            "})"
+        ],
+        "description": "Post snippet for express"
     }
 }
