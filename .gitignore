@@ -4,3 +4,4 @@ test/**
 .vscode/**
 nodejs-new-black.svg
 vsc-extension-quickstart.md
+.vscodeignore
